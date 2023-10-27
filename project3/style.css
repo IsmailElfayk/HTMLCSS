@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+.container {
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+}
+.img {
+  background-color: green;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  padding: 30px;
+  flex-direction: column;
+}
+.par {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+}
+.gab {
+  font-size: 35px;
+  font-family: "Fraunces", serif;
+  line-height: 38px;
+  width: 260px;
+}
+.flo {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  width: 280px;
+  color: hsl(228, 12%, 48%);
+  line-height: 25px;
+}
+.pri {
+  font-size: 35px;
+  font-family: "Fraunces", serif;
+  display: flex;
+  align-items: center;
+
+  color: hsl(158, 36%, 37%);
+}
+.pri span {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 30px;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+button {
+  width: 100%;
+  border-radius: 10px;
+  height: 67px;
+  position: relative;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+button img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translate(-30px);
+}
+.img {
+  background-image: url(images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 0px 0px 15px;
+}
+button:hover {
+  background-color: hsl(212, 21%, 14%);
+  cursor: pointer;
+}

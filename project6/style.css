@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.intro {
+  width: 50%;
+  height: 50%;
+  outline: 2px black solid;
+  padding: 10%;
+  display: flex;
+  align-items: space-evenly;
+  flex-wrap: wrap;
+}
+.intro {
+  font-family: "League Spartan", sans-serif;
+}
+.intro span {
+  font-weight: bold;
+  font-size: 40px;
+  display: block;
+}
+.rate {
+  width: 50%;
+  height: 50%;
+  outline: 2px blue solid;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container div {
+  width: 25%;
+  outline: 2px red solid;
+}
